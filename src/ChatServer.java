@@ -31,11 +31,7 @@ public class ChatServer {
     }
 
     public static void main(String[] args) {
-        if(args.length < 1) {
-            System.out.println("Syntax: Java ChatServer <port-number>");
-            System.exit(0);
-        }
-        int port = Integer.parseInt(args[0]);
+        int port = 8989;
 
         ChatServer server = new ChatServer(port);
         server.execute();
