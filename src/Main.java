@@ -8,7 +8,7 @@ public class Main {
         String hostname = args[0];
         Integer port = Integer.parseInt(args[1]);
 
-        Client cl = new Client(hostname, port);
+        ChatClient cl = new ChatClient(hostname, port);
         cl.execute();
     }
 }
