@@ -1,4 +1,4 @@
-import java.net.*;
+import java.net.Socket;
 
 public class ChatClient {
     private String hostname;
